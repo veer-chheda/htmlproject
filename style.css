@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.container{
+    background-color: rgb(207, 141, 216);
+    min-height: 100vh;
+    border: 10px solid rgb(243, 247, 39);
+    background-image: url(frame.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-attachment:fixed;
+    background-position: center;
+    
+}
+
+.content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.top_section{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    
+}
+
+@font-face {
+    font-family: GABRWFFR;
+    src: url(GABRWFFR.TTF);
+}
+.top_section h1{
+    font-size: 250%;
+    font-family: GABRWFFR;
+}
+
+.top_section h4{
+    font-size: 140%;
+    font-family: GABRWFFR;
+    
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container, img{
+    width: 300px;
+    height: 320px;
+}
+
+.about {
+    margin-top: 4%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+    word-spacing: 2%;
+    line-height: 200%;
+    margin-bottom: 4%;
+}
+
+.quote{
+    margin-top: 4%;
+    line-height: 200%;
+    font-size: 130%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quote h2{
+    font-size: 200%;
+    font-family: GABRWFFR;
+}
+
+footer{
+    text-align: end;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
